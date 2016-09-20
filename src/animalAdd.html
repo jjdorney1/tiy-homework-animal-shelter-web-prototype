@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Animal Shelter - Add / Edit Animal</title>
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<h1>
+    Animal Shelter
+</h1>
+
+<nav><a href="/AnimalWebPrototype/src/index.html">List Animals</a> | <a href="/AnimalWebPrototype/src/animalAdd.html">Add an Animal</a></nav>
+
+<h2>
+    Add / Edit Animals
+</h2>
+
+<div>
+    <form action="get-animal-data.php" method="POST">
+        <table>
+            <tr>
+                Search for an animal:
+            </tr>
+            <tr>
+                <td>Name*:</td>
+                <td><input type="text" placeholder="Animal Name"></td>
+            </tr>
+            <tr>
+                <td>Species*:</td>
+                <td>
+                    <select>
+                        <option>Cat</option>
+                        <option>Dog</option>
+                        <option>Spider</option>
+                        <option>Fish</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Breed:</td>
+                <td><input type="text" placeholder="Breed"></td>
+            </tr>
+            <tr>
+                <td>Description*:</td>
+                <td><input type="text" placeholder="Description"></td>
+            </tr>
+            <tr>
+                <td><button name="search" type="reset">Save Animal</button></td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+</body>
+</html>
+

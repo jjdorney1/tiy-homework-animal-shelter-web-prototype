@@ -1,0 +1,12 @@
+.animal-icon{
+    width: 100px;
+}
+.delete-button{
+    width: 16px;
+}
+.note_table{
+    border: 1px solid black;
+}
+.name{
+    font-size: 1.2em;
+}
